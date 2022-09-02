@@ -1,0 +1,54 @@
+.con-box{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 300px;
+  z-index: 1000;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h1 {
+  font-size: 20px;
+  color: red;
+}
+
+p {
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 200;
+}
+.icon-ridouble {
+  font-size: 16px;
+  color: red;
+  border: 1px solid gainsboro;
+  border-radius: 50%;
+  background-color: rgb(179, 130, 70);
+}
+.icon-h {
+  padding-right: 10px;
+}
+h3 {
+  font-size: 14;
+  color: gray;
+}
+.btn{
+  display: flex;
+  align-items: flex-start;
+  padding-top: 15px;
+  padding-right: 5px;
+  position: absolute;
+}
+.btn-danger{
+  cursor: pointer;
+  color: red;
+}
+.btn-danger:hover{
+  background-color: red;
+  color: white;
+}
